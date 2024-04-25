@@ -3,87 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./AyushAsatiyaFavicon.png">
     <title>Ayush Asatiya</title>
     <style>
-        * {
-            background: whitesmoke;
+        @media(min-width : 800px) {
+            * {
+                background: whitesmoke;
+            }
+            p {
+                font-size: 20px;
+            }
+            h1 {
+                padding-left: 5%;
+                color: rgb(57, 57, 57);
+                font-size: 42px;
+                background: #e6e6e6;
+            }
+            h2 {
+                cursor: pointer;
+                font-family: 'Trebuchet MS';
+                font-size: 22px;
+                color: rgb(36, 109, 255);
+            }
+            strong {
+                color: rgba(55, 55, 55, 0.85);
+            }
+            #main {
+                width: 40%;
+                padding-right: 2%;
+                padding-left: 20%;
+                display: inline-block;
+            }
+            ul {
+                font-size: 20px;
+            }
+            #side {
+                width: 20%;
+                padding-right: 15%;
+                padding-left: 2%;
+                display: inline-block;
+                vertical-align: top;
+            }
+            table {
+                font-size: 18px;
+                margin-right: 1%;
+                margin-left: 1%;
+                border-collapse: collapse;
+            }
+            th {
+                font-size: 20px;
+                color: rgb(55, 55, 55);
+                background: #dfdfdf;
+            }
+            th,td {
+                padding: 5px;
+                border: 1px solid rgb(99, 99, 99);
+            }
+            .rule {
+                margin-right: 15%;
+                margin-left: 15%;
+                border-top: rgb(48, 48, 48) solid 1px;
+            }
+            footer {
+                text-align: center;
+            }
+            hr {
+                border-top: 1px solid rgb(168, 168, 168);
+            }
+            #heading {
+                margin-left: 16%;
+                margin-right: 16%;
+            }
+            #scenery {
+                text-align: center;
+            }
+            footer {
+                color: rgb(73, 73, 73);
+                font-size: 12px;
+            }
+            .gray {
+                color: rgb(100, 100, 100);
+            }
+            a {
+                color: rgb(73, 73, 73);
+                text-decoration: none;
+            }
+            .declarationHr {
+                margin-left: 18%;
+                margin-right: 14%;
+            }
+            #aboveFoot {
+                margin-left: 20%;
+                margin-right: 15%;
+            }
+            .experience {
+                font-size: 20px;
+                font-weight: 600;
+                color: rgb(55, 55, 55);;
+            }
+            .invisible {
+                border-top: 1px solid rgba(255, 255, 255, 0);
+            }
         }
-        p {
-            font-size: 20px;
-        }
-        h1 {
-            padding-left: 5%;
-            color: rgb(57, 57, 57);
-            font-size: 42px;
-            background: #e6e6e6;
-        }
-        h2 {
-            cursor: pointer;
-            font-family: 'Trebuchet MS';
-            font-size: 22px;
-            color: rgb(36, 109, 255);
-        }
-        strong {
-            color: rgb(55, 55, 55);
-        }
-        #main {
-            width: 40%;
-            padding-right: 2%;
-            padding-left: 20%;
-            display: inline-block;
-        }
-        ul {
-            font-size: 20px;
-        }
-        #side {
-            width: 20%;
-            padding-right: 15%;
-            padding-left: 2%;
-            display: inline-block;
-        }
-        table {
-            font-size: 18px;
-            margin-right: 1%;
-            margin-left: 1%;
-            border-collapse: collapse;
-        }
-        th {
-            font-size: 20px;
-            color: rgb(55, 55, 55);
-            background: #dfdfdf;
-        }
-        th,td {
-            padding: 5px;
-            border: 1px solid rgb(99, 99, 99);
-        }
-        .rule {
-            margin-right: 15%;
-            margin-left: 15%;
-            border-top: rgb(48, 48, 48) solid 1px;
-        }
-        footer {
-            text-align: center;
-        }
-        hr {
-            border-top: 1px solid rgb(168, 168, 168);
-        }
-        #heading {
-            margin-left: 16%;
-            margin-right: 16%;
-        }
-        #scenery {
-            text-align: center;
-        }
-        footer {
-            color: rgb(73, 73, 73);
-            font-size: 12px;
-        }
-        .gray {
-            color: rgb(100, 100, 100);
-        }
-        a {
-            color: rgb(73, 73, 73);
-            text-decoration: none;
+
+        @media(max-width : 800px) {
+            * {
+                background: whitesmoke;
+            }
+            p {
+                font-size: 20px;
+            }
+            h1 {
+                padding-left: 5%;
+                color: rgb(57, 57, 57);
+                font-size: 36px;
+                background: #e6e6e6;
+            }
+            h2 {
+                cursor: pointer;
+                font-family: 'Trebuchet MS';
+                font-size: 22px;
+                color: rgb(36, 109, 255);
+            }
+            strong {
+                color: rgba(55, 55, 55);
+            }
+            #main {
+                padding-right: 2%;
+                padding-left: 2%;
+                vertical-align: top;
+            }
+            ul {
+                font-size: 20px;
+            }
+            #side {
+                padding-right: 2%;
+                padding-left: 2%;
+                vertical-align: top;
+            }
+            table {
+                font-size: 18px;
+                margin-right: 1%;
+                margin-left: 1%;
+                border-collapse: collapse;
+            }
+            th {
+                font-size: 20px;
+                color: rgb(55, 55, 55);
+                background: #dfdfdf;
+            }
+            th,td {
+                padding: 10px;
+                border: 1px solid rgb(99, 99, 99);
+            }
+            .rule {
+                margin-right: 2%;
+                margin-left: 2%;
+                border-top: rgb(48, 48, 48) solid 1px;
+            }
+            footer {
+                text-align: center;
+            }
+            hr {
+                border-top: 1px solid rgb(168, 168, 168);
+            }
+            #heading {
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            #scenery {
+                text-align: center;
+            }
+            footer {
+                color: rgb(73, 73, 73);
+                font-size: 12px;
+            }
+            .gray {
+                color: rgb(100, 100, 100);
+            }
+            a {
+                color: rgb(73, 73, 73);
+                text-decoration: none;
+            }
+            .declarationHr {
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            #aboveFoot {
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            .experience {
+                font-size: 20px;
+                font-weight: 600;
+                color: rgb(55, 55, 55);;
+            }
         }
     </style>
 </head>
@@ -101,7 +215,7 @@
             Career Objective :
         </h2>
         <p>
-            To have a growth-oriented career, where I can contribute my knowledge <br>and skills to the organization I am working in and enhance my experience through continuous learning and teamwork.
+            To have a growth-oriented career, where I can contribute my knowledge and skills to the organization I am working in and enhance my experience through continuous learning and teamwork.
         </p>
         <hr>
         <h2>
@@ -111,8 +225,8 @@
             <table>
                 <tr>
                     <th>Qualification</th>
-                    <th>School / College</th>
-                    <th>Board / University</th>
+                    <th>Institution</th>
+                    <th>Affiliation</th>
                     <th>Year</th>
                     <th>Percentage</th>
                 </tr>
@@ -145,16 +259,24 @@
         <h2>
             Work Experience :
         </h2>
-        <p>Digital Marketting in DigiCareer</p>
-        <p><strong>Job Title </strong>- Digital Marketter</p>
-        <p><strong>Duration </strong>- July 2023 - January 2024</p>
-        <p>
-            I used to generate leads, affiliate marketting, convince people to buy the product (a course for Stock Market, Crypto Currency, FaceBook ads, Youtube Mastery, Spoken English) as part-time marketter.
-        </p>
-        <hr>
-        <h2>Trading in Stock Market and Investing</h2>
-        <p><Strong>Since : </Strong> - 2 years ago</p>
-        <p>Affiliated to Swastik Corp.</p>
+        <ul>
+            <li>
+                <p class="experience">Digital Marketting in DigiCareer</p>
+                <p><strong>Job Title </strong>- Digital Marketter</p>
+                <p><strong>Duration </strong>- July 2023 - January 2024</p>
+                <p>
+                    I used to generate leads, affiliate marketting, convince people to buy the product (a course for Stock Market, Crypto Currency, FaceBook ads, Youtube Mastery, Spoken English) as part-time marketter.
+                </p>
+            </li>
+            <li>
+                <p class="experience">Trading and Investing in Stock Market</p>
+                <p><strong>Job Title </strong>- Trader and Invester</p>
+                <p><strong>Since </strong>- February 2022</p>
+                <p>
+                    I had a professional association with Swastik company, engaged in trading stocks and investment activities in the market.
+                </p>
+            </li>
+        </ul>
         <hr>
         <h2>
             Interpersonal Skills : 
@@ -168,16 +290,9 @@
         <p>
             I possess a strong sense of confidence and determination, enabling me to effectively navigate diverse situations.
         </p>
-        <hr>
-        <h2>Declaration : </h2>
-        <p>
-            I do hereby declare that the above information is true to the best of my knowledge
-        </p>
-        <hr>
-        <p><strong>Place</strong> - Sehore - Ayush Asatiya</p>
+        <hr class="invisible">
     </div>
     <div id="side">
-        <br><br><br>
         <h2>Contact Information : </h2>
         <p><strong>Contact no. : </strong><br>
             +91 6232662467
@@ -224,7 +339,15 @@
         <hr>
         <h2>Languages : </h2>
         <p>Hindi and English</p>
-        <br><br><br>
+    </div>
+    <hr class="declarationHr">
+    <div id="aboveFoot">
+        <h2>Declaration : </h2>
+        <p>
+            I do hereby declare that the above information is true to the best of my knowledge
+        </p>
+        <hr>
+        <p><strong>Place</strong> - Sehore - Ayush Asatiya</p>
     </div>
     <div>
         <br> <br> <br>
